@@ -21,64 +21,68 @@
         <div id="mid-top">
           <el-row>
             <el-button id="mid-head1" :plain="true" @click="skip('ceshi')">
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <div class="mid-top">
-                  <span class="mid-top-span">购机赠好礼</span>
+              <el-col :span="6">
+                <div class="grid-content bg-purple">
+                  <div class="mid-top">
+                    <span class="mid-top-span">购机赠好礼</span>
+                  </div>
+                  <div class="mid-bottom">
+                    <span class="mid-bottom-span">赠手机摄影课程</span>
+                    <img class="mid-img" src="../../assets/icon/class.png" />
+                  </div>
                 </div>
-                <div class="mid-bottom">
-                  <span class="mid-bottom-span">赠手机摄影课程</span>
-                  <img class="mid-img" src='../../assets/icon/class.png'>
-                </div>
-              </div>
-            </el-col>
+              </el-col>
             </el-button>
             <el-button id="mid-head2" :plain="true" @click="skip('ceshi')">
-            <el-col :span="6">
-              <div class="grid-content bg-purple-light">
-                <div class="mid-top">
-                  <span class="mid-top-span">华为老用户</span>
+              <el-col :span="6">
+                <div class="grid-content bg-purple-light">
+                  <div class="mid-top">
+                    <span class="mid-top-span">华为老用户</span>
+                  </div>
+                  <div class="mid-bottom">
+                    <span class="mid-bottom-span">购30E Pro享权益</span>
+                    <img class="mid-img" src="../../assets/icon/power.png" />
+                  </div>
                 </div>
-                <div class="mid-bottom">
-                  <span class="mid-bottom-span">购30E Pro享权益</span>
-                  <img class="mid-img" src='../../assets/icon/power.png'>
-                </div>
-              </div>
-            </el-col>
+              </el-col>
             </el-button>
             <el-button id="mid-head3" :plain="true" @click="skip('ceshi')">
-            <el-col :span="6">
-              <div class="grid-content bg-purple">
-                <div class="mid-top">
-                  <span class="mid-top-span">购机抽好礼</span>
+              <el-col :span="6">
+                <div class="grid-content bg-purple">
+                  <div class="mid-top">
+                    <span class="mid-top-span">购机抽好礼</span>
+                  </div>
+                  <div class="mid-bottom">
+                    <span class="mid-bottom-span">赢国内飞机票</span>
+                    <img class="mid-img" src="../../assets/icon/plane.png" />
+                  </div>
                 </div>
-                <div class="mid-bottom">
-                  <span class="mid-bottom-span">赢国内飞机票</span>
-                  <img class="mid-img" src='../../assets/icon/plane.png'>
-                </div>
-              </div>
-            </el-col>
+              </el-col>
             </el-button>
             <el-button id="mid-head4" :plain="true" @click="skip('ceshi')">
-            <el-col :span="6">
-              <div class="grid-content bg-purple-light">
-                <div class="mid-top">
-                  <span class="mid-top-span">以旧换新</span>
+              <el-col :span="6">
+                <div class="grid-content bg-purple-light">
+                  <div class="mid-top">
+                    <span class="mid-top-span">以旧换新</span>
+                  </div>
+                  <div class="mid-bottom">
+                    <span class="mid-bottom-span">最高补贴1111元</span>
+                    <img class="mid-img" src="../../assets/icon/phone.png" />
+                  </div>
                 </div>
-                <div class="mid-bottom">
-                  <span class="mid-bottom-span">最高补贴1111元</span>
-                  <img class="mid-img" src='../../assets/icon/phone.png'>
-                </div>
-              </div>
-            </el-col>
+              </el-col>
             </el-button>
           </el-row>
         </div>
         <!--四项权益结束-->
         <!--促销商品推荐开始-->
         <div id="sale">
-          <img id="sale1" src='../../assets/icon/sale.jpg'>
+          <img id="sale1" src="../../assets/icon/sale.jpg" />
+          <a href="#"><span id="right"></span></a>
+          <a href="#"><span id="left"></span></a>
         </div>
+
+        <!--
         <div class="mid">
           <el-row>
             <el-col :span="12">
@@ -99,7 +103,75 @@
             ></el-col>
           </el-row>
         </div>
+        -->
         <!--促销商品推荐结束-->
+
+        <!--手机销售开始-->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone1.png" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--mate拍档开始-->
+        <img class="mate-img" src="../../assets/icon/phone1-1.jpg" />
+        <!--mate拍档结束-->
+        <!--
+        <div class="phone-mate">
+          <div class="mid-mid">
+            <el-row>
+              <el-col :span="3"
+                ><div class="grid-content bg-purple">Mate 拍档</div></el-col
+              >
+              <el-col :span="7"
+                ><div class="grid-content bg-purple-light">213213</div></el-col
+              >
+              <el-col :span="7"
+                ><div class="grid-content bg-purple">123213213</div></el-col
+              >
+              <el-col :span="7"
+                ><div class="grid-content bg-purple-light">ewqeqw</div></el-col
+              >
+            </el-row>
+          </div>
+        </div>
+        -->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone2.jpg" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--mate拍档开始-->
+        <img class="mate-img" src="../../assets/icon/phone2-1.png" />
+        <!--mate拍档结束-->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone3.png" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--mate拍档开始-->
+        <img class="mate-img" src="../../assets/icon/phone3-1.jpg" />
+        <!--mate拍档结束-->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone4.jpg" />
+            </div>
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone5.png" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--手机销售结束-->
       </el-main>
       <!--页面结束-->
       <!--页尾开始-->
@@ -138,7 +210,7 @@
   color: #333;
   text-align: center;
 }
-#el-main{
+#el-main {
   padding: 30px 0px 0px 0px;
 }
 
@@ -192,7 +264,10 @@ body > .el-container {
 
 /*四项权益样式开始*/
 
-#mid-head1,#mid-head2,#mid-head3,#mid-head4{
+#mid-head1,
+#mid-head2,
+#mid-head3,
+#mid-head4 {
   margin-left: 20px;
   margin-right: 20px;
   line-height: inherit;
@@ -200,7 +275,7 @@ body > .el-container {
 
 #mid-top {
   width: 1300px;
-  margin: 0 auto;
+  margin: 0 auto 20px;
 }
 
 .mid-top {
@@ -227,7 +302,7 @@ body > .el-container {
   margin-top: 10px;
 }
 
-.mid-img{
+.mid-img {
   float: right;
   width: 50px;
 }
@@ -235,36 +310,75 @@ body > .el-container {
 /*四项权益样式结束*/
 
 /*促销商品布局开始*/
-#sale{
+#sale {
   width: 100%;
+  position: relative;
 }
-#sale1{
+#sale1 {
   width: 100%;
+  min-width: 1200px;
+}
+#right,
+#left {
+  width: 510px;
+  height: 166px;
+  position: absolute;
+  top: 10px;
+}
+#right {
+  left: 316px;
+}
+#left {
+  left: 835px;
 }
 .mid {
   width: 1300px;
   margin: 0 auto;
 }
+/*促销商品布局结束*/
+
+/*手机大图样式开始*/
+.phone-img {
+  width: 100%;
+  min-width: 1200px;
+  margin-bottom: -4px;
+}
+/*手机大图样式结束*/
+/*Mate拍档样式开始*/
+.mate-img{
+  min-width: 1200px;
+  width: 100%;
+}
+/*
+.mid-mid {
+  width: 1200px;
+  margin: 0 auto;
+}
+.phone-mate {
+  width: 1200px;
+  margin: 0 auto;
+}
+*/
+/*Mate拍档样式结束*/
+
+/*栅格布局共同样式开始*/
 .el-row {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .el-row:last-child {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
 }
 .el-col {
   border-radius: 4px;
 }
 .bg-purple-dark {
-    background-color: white;
-
+  background-color: white;
 }
 .bg-purple {
-    background-color: white;
-
+  background-color: white;
 }
 .bg-purple-light {
-    background-color: white;
-
+  background-color: white;
 }
 .grid-content {
   border-radius: 4px;
@@ -274,7 +388,7 @@ body > .el-container {
   padding: 10px 0;
   background-color: #f9fafc;
 }
-/*促销商品布局结束*/
+/*栅格布局共同样式结束*/
 </style>
 <script>
 export default {
@@ -299,10 +413,10 @@ export default {
   },
   methods: {
     //四项权益点击页面跳转开始
-      skip(a){
-        this.$router.push(a)
-      }
+    skip(a) {
+      this.$router.push(a);
     },
-    //四项权益点击页面跳转结束
+  },
+  //四项权益点击页面跳转结束
 };
 </script>
