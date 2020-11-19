@@ -107,70 +107,80 @@
         <!--促销商品推荐结束-->
 
         <!--手机销售开始-->
-        <el-row>
-          <el-col :span="24">
-            <div class="grid-content bg-purple-dark">
-              <img class="phone-img" src="../../assets/icon/phone1.png" />
-            </div>
-          </el-col>
-        </el-row>
-        <!--mate拍档开始-->
-        <img class="mate-img" src="../../assets/icon/phone1-1.jpg" />
-        <!--mate拍档结束-->
-        <!--
-        <div class="phone-mate">
-          <div class="mid-mid">
+        <div id="sell1">
+          <img class="sell-img" src="../../assets/icon/sell1.jpg" />
+          <div class="sell-sec">
             <el-row>
-              <el-col :span="3"
-                ><div class="grid-content bg-purple">Mate 拍档</div></el-col
-              >
-              <el-col :span="7"
-                ><div class="grid-content bg-purple-light">213213</div></el-col
-              >
-              <el-col :span="7"
-                ><div class="grid-content bg-purple">123213213</div></el-col
-              >
-              <el-col :span="7"
-                ><div class="grid-content bg-purple-light">ewqeqw</div></el-col
-              >
+              <el-col :span="24"
+                ><div class="grid-content bg-purple-dark">
+                  <img
+                    class="phone-img"
+                    src="../../assets/icon/sell1-1.jpg"
+                  /></div
+              ></el-col>
             </el-row>
+            <div class="sell-body">
+              <el-row>
+                <el-col :span="6"
+                  ><div class="grid-content bg-purple">
+                    <img
+                      class="sell-phone"
+                      src="../../assets/icon/sell1-2.png"
+                    /></div
+                ></el-col>
+                <el-col :span="6"
+                  ><div class="grid-content bg-purple-light">
+                    <img
+                      class="sell-phone"
+                      src="../../assets/icon/sell1-3.png"
+                    /></div
+                ></el-col>
+                <el-col :span="6"
+                  ><div class="grid-content bg-purple">
+                    <img
+                      class="sell-phone"
+                      src="../../assets/icon/sell1-4.png"
+                    /></div
+                ></el-col>
+                <el-col :span="6"
+                  ><div class="grid-content bg-purple-light">
+                    <img
+                      class="sell-phone"
+                      src="../../assets/icon/sell1-5.png"
+                    /></div
+                ></el-col>
+              </el-row>
+            </div>
           </div>
         </div>
-        -->
-        <el-row>
-          <el-col :span="24">
-            <div class="grid-content bg-purple-dark">
-              <img class="phone-img" src="../../assets/icon/phone2.jpg" />
-            </div>
-          </el-col>
-        </el-row>
-        <!--mate拍档开始-->
-        <img class="mate-img" src="../../assets/icon/phone2-1.png" />
-        <!--mate拍档结束-->
-        <el-row>
-          <el-col :span="24">
-            <div class="grid-content bg-purple-dark">
-              <img class="phone-img" src="../../assets/icon/phone3.png" />
-            </div>
-          </el-col>
-        </el-row>
-        <!--mate拍档开始-->
-        <img class="mate-img" src="../../assets/icon/phone3-1.jpg" />
-        <!--mate拍档结束-->
-        <el-row>
-          <el-col :span="24">
-            <div class="grid-content bg-purple-dark">
-              <img class="phone-img" src="../../assets/icon/phone4.jpg" />
-            </div>
-          </el-col>
-        </el-row>
-        <el-row>
-          <el-col :span="24">
-            <div class="grid-content bg-purple-dark">
-              <img class="phone-img" src="../../assets/icon/phone5.png" />
-            </div>
-          </el-col>
-        </el-row>
+        <div id="sell2">
+          <img class="sell-img" src="../../assets/icon/sell2.jpg" />
+          <div></div>
+        </div>
+        <div id="sell3">
+          <img class="sell-img" src="../../assets/icon/sell3.jpg" />
+          <div></div>
+        </div>
+        <div id="sell4">
+          <img class="sell-img" src="../../assets/icon/sell4.jpg" />
+          <div></div>
+        </div>
+        <div id="sell5">
+          <img class="sell-img" src="../../assets/icon/sell5.jpg" />
+          <div></div>
+        </div>
+        <div id="sell6">
+          <img class="sell-img" src="../../assets/icon/sell6.jpg" />
+          <div></div>
+        </div>
+        <div id="sell7">
+          <img class="sell-img" src="../../assets/icon/sell7.jpg" />
+          <div></div>
+        </div>
+        <div id="sell8">
+          <img class="sell-img" src="../../assets/icon/sell8.jpg" />
+          <div></div>
+        </div>
         <!--手机销售结束-->
       </el-main>
       <!--页面结束-->
@@ -313,6 +323,7 @@ body > .el-container {
 #sale {
   width: 100%;
   position: relative;
+  margin-bottom: -4px;
 }
 #sale1 {
   width: 100%;
@@ -337,6 +348,27 @@ body > .el-container {
 }
 /*促销商品布局结束*/
 
+/*全部商品布局开始*/
+#sell1{
+  min-width: 1200px;
+  width: 100%;
+}
+.sell-img {
+  min-width: 1200px;
+  width: 100%;
+  margin-bottom: -4px;
+}
+.sell-sec{
+  width: 75%;
+  margin: 0 auto;
+}
+.sell-body{
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.sell-phone {
+  width: 260px;
+}
 /*手机大图样式开始*/
 .phone-img {
   width: 100%;
@@ -345,7 +377,7 @@ body > .el-container {
 }
 /*手机大图样式结束*/
 /*Mate拍档样式开始*/
-.mate-img{
+.mate-img {
   min-width: 1200px;
   width: 100%;
 }
@@ -360,6 +392,7 @@ body > .el-container {
 }
 */
 /*Mate拍档样式结束*/
+/*全部商品布局结束*/
 
 /*栅格布局共同样式开始*/
 .el-row {
