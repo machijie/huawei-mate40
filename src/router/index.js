@@ -3,10 +3,22 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import main from '../components/main/main.vue'
 import ceshi from '../components/main/ceshi.vue'
+import login from '../components/main/login.vue'
+import register from '../components/main/register.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/register',
+    name: 'register',
+    component: register
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: login
+  },
   {
     path: '/ceshi',
     name: 'ceshi',
