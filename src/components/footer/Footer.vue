@@ -1,7 +1,7 @@
 <template>
   <el-row>
     <el-col :span="24"
-      ><div class="grid-content bg-purple-dark">
+      ><div>
         <div id="img1">
           <img id="img" src="../img/footer-1.png" alt="" />
           <a href="#"><span id="right"></span></a>
@@ -13,9 +13,9 @@
 </template>
 <style scoped>
 #img1 {
-  background: rgba(0, 0, 0, 0.1);
-  height: 800px;
-  min-width: 1200px;
+  background: #f6f6f6;
+  height: 100%;
+  min-width: 1400px;
 }
 #img {
   width: 100%;

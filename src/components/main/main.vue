@@ -2,16 +2,18 @@
   <div id="app">
     <el-container>
       <!--头部开始-->
-      <el-header> head </el-header>
+      <el-header>
+        <first-head></first-head>
+      </el-header>
       <!--头部结束-->
       <!--页面开始-->
       <el-main id="el-main">
         <!--轮播图开始-->
         <div id="slideshow">
           <template>
-            <el-carousel :interval="4000" type="card" height="320px">
+            <el-carousel indicator-position="outside" arrow="never" :interval="4000" height="600px">
               <el-carousel-item v-for="(item, k) of imgs" :key="k">
-                <img :src="item.src" alt="" />
+                <img id="slideshow-img" :src="item.src" alt="" />
               </el-carousel-item>
             </el-carousel>
           </template>
@@ -415,10 +417,13 @@
 /* 全局样式结束 */
 
 /* 页面框架样式开始 */
-.foot >>>  .el-footer{
+/* 穿透别名/deep/开始 */
+.foot /deep/ .el-footer{
   padding: 0px !important;
+  height: 100% !important;
 }
-.el-header,
+/* 穿透别名/deep/结束 */
+
 .el-footer{
   margin: 0 auto;
 }
@@ -436,7 +441,8 @@
   text-align: center;
 }
 #el-main {
-  padding: 30px 0px 0px 0px;
+  padding: 0px;
+  margin-top: 30px;
 }
 
 body > .el-container {
@@ -457,33 +463,18 @@ body > .el-container {
 /*轮播图样式开始*/
 
 #slideshow {
-  width: 1300px;
+  min-width: 1400px;
   margin: 0 auto 60px;
+  background-color: white;
+}
+#slideshow-img{
+  width: 100%;
 }
 
 .el-carousel__container {
   height: 350px;
 }
 
-.el-carousel__mask {
-  width: 0px;
-}
-
-.el-carousel__item h3 {
-  color: #475669;
-  font-size: 14px;
-  opacity: 0.75;
-  line-height: 200px;
-  margin: 0;
-}
-
-.el-carousel__item:nth-child(2n) {
-  background-color: #99a9bf;
-}
-
-.el-carousel__item:nth-child(2n + 1) {
-  background-color: #d3dce6;
-}
 
 /*轮播图样式结束*/
 
@@ -499,7 +490,7 @@ body > .el-container {
 }
 
 #mid-top {
-  width: 1300px;
+  width: 1400px;
   margin: 0 auto 20px;
 }
 
@@ -542,7 +533,7 @@ body > .el-container {
 }
 #sale1 {
   width: 100%;
-  min-width: 1200px;
+  min-width: 1400px;
 }
 #right,
 #left {
@@ -558,23 +549,23 @@ body > .el-container {
   left: 835px;
 }
 .mid {
-  width: 1300px;
+  width: 1400px;
   margin: 0 auto;
 }
 /*促销商品布局结束*/
 
 /*全部商品布局开始*/
 .sell {
-  min-width: 1200px;
+  min-width: 1400px;
   width: 100%;
 }
 .sell-img {
-  min-width: 1200px;
+  min-width: 1400px;
   width: 100%;
   margin-bottom: -4px;
 }
 .sell-sec {
-  min-width: 1200px;
+  min-width: 1400px;
   width: 100%;
   margin: 0 auto;
   background-color: #f6f6f6;
@@ -642,13 +633,13 @@ body > .el-container {
 /*手机大图样式开始*/
 .phone-img {
   width: 100%;
-  min-width: 1200px;
+  min-width: 1400px;
   margin-bottom: -4px;
 }
 /*手机大图样式结束*/
 /*Mate拍档样式开始*/
 .mate-img {
-  min-width: 1200px;
+  min-width: 1400px;
   width: 100%;
 }
 /*
@@ -697,11 +688,12 @@ export default {
       //头部结束
       //轮播图开始
       imgs: [
-        { src: "../../assets/scroll_img/3aa35390545c55789bcffd47304a757.jpg" },
-        { src: "../../assets/scroll_img/91411ba20e128ed1620830ee909189b.png" },
-        { src: "../../assets/scroll_img/a501e2c3b7d1e784c034e8e0d43a949.jpg" },
-        { src: "../../assets/scroll_img/bd9690704c93cb5d1d5d543f1ef882d.jpg" },
-        { src: "../../assets/scroll_img/d7c591df4ad81f2fd394520c3003e47.jpg" },
+        { src: require("../../assets/scroll_img/1.jpg") },
+        { src: require("../../assets/scroll_img/2.jpg") },
+        { src: require("../../assets/scroll_img/3.jpg") },
+        { src: require("../../assets/scroll_img/4.jpg") },
+        { src: require("../../assets/scroll_img/5.jpg") },
+        { src: require("../../assets/scroll_img/6.jpg") },
       ],
       //轮播图结束
     };

@@ -172,8 +172,6 @@
   width: 340px;
   margin: 40px auto;
 }
-.password {
-}
 .login-else {
   width: 340px;
   margin: 0 auto;
