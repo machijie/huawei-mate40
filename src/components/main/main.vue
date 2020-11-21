@@ -105,7 +105,74 @@
         </div>
         -->
         <!--促销商品推荐结束-->
-
+        <!-- 销售大图开始 -->
+        <!--手机销售开始-->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone1.png" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--mate拍档开始-->
+        <img class="mate-img" src="../../assets/icon/phone1-1.jpg" />
+        <!--mate拍档结束-->
+        <!--
+        <div class="phone-mate">
+          <div class="mid-mid">
+            <el-row>
+              <el-col :span="3"
+                ><div class="grid-content bg-purple">Mate 拍档</div></el-col
+              >
+              <el-col :span="7"
+                ><div class="grid-content bg-purple-light">213213</div></el-col
+              >
+              <el-col :span="7"
+                ><div class="grid-content bg-purple">123213213</div></el-col
+              >
+              <el-col :span="7"
+                ><div class="grid-content bg-purple-light">ewqeqw</div></el-col
+              >
+            </el-row>
+          </div>
+        </div>
+        -->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone2.jpg" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--mate拍档开始-->
+        <img class="mate-img" src="../../assets/icon/phone2-1.png" />
+        <!--mate拍档结束-->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone3.png" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--mate拍档开始-->
+        <img class="mate-img" src="../../assets/icon/phone3-1.jpg" />
+        <!--mate拍档结束-->
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone4.jpg" />
+            </div>
+          </el-col>
+        </el-row>
+        <el-row>
+          <el-col :span="24">
+            <div class="grid-content bg-purple-dark">
+              <img class="phone-img" src="../../assets/icon/phone5.png" />
+            </div>
+          </el-col>
+        </el-row>
+        <!--手机销售结束-->
+        <!-- 销售大图结束 -->
         <!--手机销售开始-->
         <div class="sell">
           <img class="sell-img" src="../../assets/icon/sell1.jpg" />
@@ -203,342 +270,124 @@
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-1.png"
-                    /></div
-                ></el-col>
+                    /></div>
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
                 <el-col :span="6"
                   ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-2.png"
                     /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
                 <el-col :span="6"
                   ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-3.png"
                     /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
                 <el-col :span="6"
                   ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-4.png"
                     /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
               </el-row>
             </div>
             <div class="sell-body">
               <el-row>
                 <el-col :span="6"
-                  ><div class="grid-content bg-purple">
+                  ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-5.png"
                     /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
                 <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
+                  ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-6.png"
                     /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
                 <el-col :span="6"
-                  ><div class="grid-content bg-purple">
+                  ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-7.png"
                     /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
                 <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
+                  ><div class="sell-phone-top">
                     <img
                       class="sell-phone"
                       src="../../assets/icon/sell2-8.png"
                     /></div
-                ></el-col>
-              </el-row>
-            </div>
-          </div>
-        </div>
-        <div class="sell">
-          <img class="sell-img" src="../../assets/icon/sell3.jpg" />
-          <div class="sell-sec">
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-1.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-2.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-3.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-4.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-5.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-6.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-7.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell3-8.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-          </div>
-        </div>
-        <div class="sell">
-          <img class="sell-img" src="../../assets/icon/sell4.jpg" />
-          <div class="sell-sec">
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-1.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-2.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-3.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-4.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-5.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-6.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-7.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell4-8.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-          </div>
-        </div>
-        <div class="sell">
-          <img class="sell-img" src="../../assets/icon/sell5.jpg" />
-          <div class="sell-sec">
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-1.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-2.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-3.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-4.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-5.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-6.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-7.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell5-8.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-          </div>
-        </div>
-        <div class="sell">
-          <img class="sell-img" src="../../assets/icon/sell6.jpg" />
-          <div class="sell-sec">
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell6-1.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell6-2.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell6-3.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell6-4.png"
-                    /></div
-                ></el-col>
-              </el-row>
-            </div>
-          </div>
-        </div>
-        <div class="sell">
-          <img class="sell-img" src="../../assets/icon/sell7.jpg" />
-          <div class="sell-sec">
-            <div class="sell-body">
-              <el-row>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell7-1.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell7-2.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell7-3.png"
-                    /></div
-                ></el-col>
-                <el-col :span="6"
-                  ><div class="grid-content bg-purple-light">
-                    <img
-                      class="sell-phone"
-                      src="../../assets/icon/sell7-4.png"
-                    /></div
-                ></el-col>
+                >
+                <div class="sell-phone-bottom">
+                    <div class="sell-phone-bottom-font">
+                      HUAWEI Mate 30E Pro
+                    </div>
+                    <div class="sell-phone-bottom-size">麒麟990E 5G旗舰SoC芯片</div>
+                    <el-button type="primary" round>¥129999</el-button>
+                  </div>
+                </el-col>
               </el-row>
             </div>
           </div>
@@ -547,7 +396,11 @@
       </el-main>
       <!--页面结束-->
       <!--页尾开始-->
-      <el-footer>Footer</el-footer>
+      <div class="foot">
+      <el-footer>
+        <first-footer></first-footer>
+      </el-footer>
+      </div>
       <!--页尾结束-->
     </el-container>
   </div>
@@ -562,12 +415,12 @@
 /* 全局样式结束 */
 
 /* 页面框架样式开始 */
+.foot >>>  .el-footer{
+  padding: 0px !important;
+}
 .el-header,
-.el-footer {
-  background-color: #b3c0d1;
-  color: #333;
-  text-align: center;
-  line-height: 60px;
+.el-footer{
+  margin: 0 auto;
 }
 
 .el-aside {
@@ -732,7 +585,8 @@ body > .el-container {
   margin: 0 auto;
 }
 .sell-margin {
-  margin-right: 10px;
+  width:96%;
+  margin: 0 auto;
 }
 
 .sell-phone {

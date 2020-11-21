@@ -5,10 +5,16 @@ import main from '../components/main/main.vue'
 import ceshi from '../components/main/ceshi.vue'
 import login from '../components/main/login.vue'
 import register from '../components/main/register.vue'
+import Footer from '../components/footer/Footer.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
+  {
+    path: '/footer',
+    name: 'footer',
+    component: Footer
+  },
   {
     path: '/register',
     name: 'register',
